@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CyberAidAU Cyber News &amp; Safety Alerts</title>
+    <link>https://kimytannobbs.github.io/cyberaidau.github.io/news.html</link>
+    <description>Plain-English Australian cybersecurity news and safety alerts for small businesses, seniors, AI governance, data and privacy.</description>
+    <language>en-au</language>
+    <atom:link href="https://kimytannobbs.github.io/cyberaidau.github.io/news.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
