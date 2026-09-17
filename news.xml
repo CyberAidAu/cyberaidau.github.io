@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CyberAidAU Cyber News &amp; Safety Alerts</title>
-    <link>https://kimytannobbs.github.io/cyberaidau.github.io/news.html</link>
+    <link>https://cyberaidau.github.io/news.html</link>
     <description>Plain-English Australian cybersecurity news and safety alerts for small businesses, seniors, AI governance, data and privacy.</description>
     <language>en-au</language>
-    <atom:link href="https://kimytannobbs.github.io/cyberaidau.github.io/news.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cyberaidau.github.io/news.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI phishing is becoming harder to detect</title>
-      <link>https://kimytannobbs.github.io/cyberaidau.github.io/news.html</link>
-      <guid>https://kimytannobbs.github.io/cyberaidau.github.io/news.html#ai-phishing-2026-09-17</guid>
+      <link>https://cyberaidau.github.io/news.html</link>
+      <guid>https://cyberaidau.github.io/news.html#ai-phishing-2026-09-17</guid>
       <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
       <description>Practical steps for Australian small businesses facing more convincing AI-generated phishing messages.</description>
     </item>
     <item>
       <title>Engineers call for human accountability in Australia’s AI strategy</title>
-      <link>https://kimytannobbs.github.io/cyberaidau.github.io/news.html</link>
-      <guid>https://kimytannobbs.github.io/cyberaidau.github.io/news.html#ai-governance-2026-09-17</guid>
+      <link>https://cyberaidau.github.io/news.html</link>
+      <guid>https://cyberaidau.github.io/news.html#ai-governance-2026-09-17</guid>
       <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
       <description>Why technical expertise, oversight and human accountability matter when organisations adopt AI.</description>
     </item>
     <item>
       <title>Australia consults on stronger privacy protections</title>
-      <link>https://kimytannobbs.github.io/cyberaidau.github.io/news.html</link>
-      <guid>https://kimytannobbs.github.io/cyberaidau.github.io/news.html#privacy-reform-2026-09-17</guid>
+      <link>https://cyberaidau.github.io/news.html</link>
+      <guid>https://cyberaidau.github.io/news.html#privacy-reform-2026-09-17</guid>
       <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
       <description>Proposed privacy reforms and practical preparation steps for Australian small organisations.</description>
     </item>
