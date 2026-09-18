@@ -7,6 +7,30 @@
   <language>en-au</language>
 
   <item>
+    <title>CyberAidAU secure business foundation</title>
+    <link>https://cyberaidau.github.io/updates.html</link>
+    <guid isPermaLink="false">cyberaidau-update-2026-09-secure-foundation</guid>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 +1000</pubDate>
+    <description>Developing security-by-design controls before services launch, including separated client-file stages, isolated security-lab environments, approval controls for sensitive actions and clear data-handling boundaries.</description>
+  </item>
+
+  <item>
+    <title>Network firewall design and testing</title>
+    <link>https://cyberaidau.github.io/updates.html</link>
+    <guid isPermaLink="false">cyberaidau-update-2026-09-firewall-simulation</guid>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 +1000</pubDate>
+    <description>Completed a Cisco Packet Tracer network-defence simulation using EIGRP routing, access-control policies, Context-Based Access Control and a Zone-Based Policy Firewall.</description>
+  </item>
+
+  <item>
+    <title>Grey-box scanning in an isolated practice network</title>
+    <link>https://cyberaidau.github.io/updates.html</link>
+    <guid isPermaLink="false">cyberaidau-update-2026-09-grey-box-lab</guid>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 +1000</pubDate>
+    <description>Completed a controlled university laboratory using Kali Linux, a deliberately vulnerable target and Nmap to identify hosts, open ports, services and likely outdated components.</description>
+  </item>
+
+  <item>
     <title>Hands-on vulnerability assessment training</title>
     <link>https://cyberaidau.github.io/updates.html</link>
     <guid isPermaLink="false">cyberaidau-update-2026-08-htb-va</guid>
