@@ -28,7 +28,7 @@
     .hero{padding:86px 0 58px;max-width:800px}.eyebrow{color:var(--accent-light);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;margin-bottom:16px}.hero h1{font-family:"Space Grotesk",sans-serif;font-size:clamp(2.4rem,6vw,4.6rem);line-height:1.04;letter-spacing:-.045em;margin-bottom:22px}.hero p{font-size:1.08rem;color:var(--muted);max-width:700px}
     .subscribe{display:grid;grid-template-columns:1fr auto;align-items:center;gap:26px;padding:28px;border:1px solid var(--line);background:rgba(16,47,84,.72);border-radius:20px;margin-bottom:56px}.subscribe h2{font-family:"Space Grotesk",sans-serif;font-size:1.35rem;margin-bottom:5px}.subscribe p{color:var(--muted);font-size:.92rem}.buttons{display:flex;gap:10px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:11px 16px;border-radius:10px;font-family:inherit;font-size:.86rem;font-weight:700;border:1px solid var(--line);background:transparent;cursor:pointer}.button.primary{background:var(--accent);color:#07182c;border-color:var(--accent)}.button.secondary{color:var(--white)}
     .section-title{font-family:"Space Grotesk",sans-serif;font-size:1.65rem;margin-bottom:20px}.categories{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:64px}.category{padding:25px;border:1px solid var(--line);background:rgba(16,47,84,.56);border-radius:16px}.category span{display:block;color:var(--accent-light);font-size:.73rem;font-weight:700;text-transform:uppercase;letter-spacing:.11em;margin-bottom:8px}.category h3{font-family:"Space Grotesk",sans-serif;font-size:1.18rem;margin-bottom:7px}.category p{color:var(--muted);font-size:.9rem}
-    .briefings{display:grid;gap:18px;margin-bottom:64px}.briefing{border:1px solid var(--line);border-radius:18px;padding:28px;background:rgba(8,26,49,.5)}.briefing .meta{color:var(--accent-light);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;margin-bottom:8px}.briefing h3{font-family:"Space Grotesk",sans-serif;font-size:1.35rem;line-height:1.3;margin-bottom:10px}.briefing p{color:var(--muted);margin-bottom:12px}.briefing h4{font-size:.92rem;margin:16px 0 5px}.briefing ul{padding-left:20px;color:var(--muted);font-size:.92rem}.source{display:inline-block;margin-top:16px;color:var(--accent-light);font-size:.86rem;font-weight:700}.standards{display:grid;grid-template-columns:1fr 1fr;gap:36px;padding:38px 0 70px;border-top:1px solid var(--line)}.standards h2{font-family:"Space Grotesk",sans-serif;font-size:1.35rem;margin-bottom:10px}.standards p,.standards li{color:var(--muted);font-size:.92rem}.standards ul{padding-left:19px;margin-top:7px}
+    .archive-bar{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;padding:18px 20px;margin:-4px 0 24px;border:1px solid var(--line);border-radius:14px;background:rgba(16,47,84,.44)}.archive-bar p{color:var(--muted);font-size:.86rem}.archive-links{display:flex;gap:10px;flex-wrap:wrap}.archive-links a{color:var(--accent-light);font-size:.8rem;font-weight:700;text-decoration:none;padding:6px 10px;border:1px solid var(--line);border-radius:8px}.archive-links a:hover{background:rgba(59,158,232,.1)}.month-heading{font-family:"Space Grotesk",sans-serif;font-size:1.12rem;color:var(--accent-light);margin:0 0 14px}.briefings{display:grid;gap:18px;margin-bottom:64px}.briefing{scroll-margin-top:100px;border:1px solid var(--line);border-radius:18px;padding:28px;background:rgba(8,26,49,.5)}.briefing .meta{color:var(--accent-light);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;margin-bottom:8px}.briefing h3{font-family:"Space Grotesk",sans-serif;font-size:1.35rem;line-height:1.3;margin-bottom:10px}.briefing p{color:var(--muted);margin-bottom:12px}.briefing h4{font-size:.92rem;margin:16px 0 5px}.briefing ul{padding-left:20px;color:var(--muted);font-size:.92rem}.source{display:inline-block;margin-top:16px;color:var(--accent-light);font-size:.86rem;font-weight:700}.standards{display:grid;grid-template-columns:1fr 1fr;gap:36px;padding:38px 0 70px;border-top:1px solid var(--line)}.standards h2{font-family:"Space Grotesk",sans-serif;font-size:1.35rem;margin-bottom:10px}.standards p,.standards li{color:var(--muted);font-size:.92rem}.standards ul{padding-left:19px;margin-top:7px}
     footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:.82rem}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-inner a{color:var(--accent-light)}
     @media(max-width:760px){.wrap{width:calc(100% - 28px)}nav{height:auto;padding:16px 0;flex-direction:column;align-items:flex-start;gap:12px}.nav-links{width:100%;gap:16px;flex-wrap:wrap;justify-content:flex-start}.nav-link{font-size:.8rem}.hero{padding:48px 0 36px}.hero h1{font-size:clamp(2.1rem,11vw,3rem)}.subscribe{grid-template-columns:1fr}.buttons{flex-direction:column}.button{width:100%}.categories,.standards{grid-template-columns:1fr}.categories{gap:12px}}
   </style>
@@ -71,10 +71,18 @@
       <article class="category"><span>Rights and responsibilities</span><h3>Data &amp; Privacy</h3><p>Privacy developments, data breaches and guidance relevant to people and small businesses.</p></article>
     </section>
 
-    <h2 class="section-title" id="latest-title">Latest briefings</h2>
+    <h2 class="section-title" id="latest-title">News archive</h2>
+    <div class="archive-bar" aria-label="News archive summary">
+      <p><strong>Last updated:</strong> <time datetime="2026-09-18">18 September 2026</time> · 5 published briefings</p>
+      <div class="archive-links" aria-label="Browse briefings by date">
+        <a href="#smart-glasses-workplace-privacy-2026-09-18">18 September (2)</a>
+        <a href="#ai-phishing-2026-09-17">17 September (3)</a>
+      </div>
+    </div>
+    <h3 class="month-heading">September 2026</h3>
     <section class="briefings" aria-labelledby="latest-title">
       <article class="briefing" id="smart-glasses-workplace-privacy-2026-09-18">
-        <div class="meta">Data &amp; Privacy · 18 September 2026</div>
+        <div class="meta">Data &amp; Privacy · Published <time datetime="2026-09-18">18 September 2026</time></div>
         <h3>Smart glasses raise new workplace privacy and security questions</h3>
         <p>Australia is considering restrictions on camera-equipped smart glasses in government workplaces because the devices can discreetly record people, conversations and sensitive information. The discussion is a timely reminder for small organisations to decide how wearable recording devices should be handled before a problem occurs.</p>
         <h4>What small organisations can do</h4>
@@ -88,7 +96,7 @@
       </article>
 
       <article class="briefing" id="data-retention-breach-risk-2026-09-18">
-        <div class="meta">Small Business Cybersecurity · 18 September 2026</div>
+        <div class="meta">Small Business Cybersecurity · Published <time datetime="2026-09-18">18 September 2026</time></div>
         <h3>Perth school breach highlights the risk of retaining old personal data</h3>
         <p>A reported cyberattack on a Perth private school involved personal information belonging to current and former students, with records dating back to 2015. The incident shows how keeping historical information can increase the number of people and the amount of sensitive data exposed in a breach.</p>
         <h4>What small organisations can do</h4>
@@ -103,7 +111,7 @@
       </article>
 
       <article class="briefing" id="ai-phishing-2026-09-17">
-        <div class="meta">Small Business Cybersecurity · 17 September 2026</div>
+        <div class="meta">Small Business Cybersecurity · Published <time datetime="2026-09-17">17 September 2026</time></div>
         <h3>AI phishing is becoming harder to detect</h3>
         <p>AI-generated phishing messages can now appear polished, personalised and credible. Small businesses should no longer rely on spelling mistakes or awkward wording as their main warning signs.</p>
         <h4>What you can do</h4>
@@ -117,7 +125,7 @@
       </article>
 
       <article class="briefing" id="ai-governance-2026-09-17">
-        <div class="meta">AI Governance · 17 September 2026</div>
+        <div class="meta">AI Governance · Published <time datetime="2026-09-17">17 September 2026</time></div>
         <h3>Engineers call for human accountability in Australia’s AI strategy</h3>
         <p>Engineers Australia says technical expertise, infrastructure and clear human accountability should be central to national AI policy. AI may support decisions, but people and organisations must remain responsible for consequential outcomes.</p>
         <h4>Why it matters</h4>
@@ -130,7 +138,7 @@
       </article>
 
       <article class="briefing" id="privacy-reform-2026-09-17">
-        <div class="meta">Data &amp; Privacy · 17 September 2026</div>
+        <div class="meta">Data &amp; Privacy · Published <time datetime="2026-09-17">17 September 2026</time></div>
         <h3>Australia consults on stronger privacy protections</h3>
         <p>The Australian Government is considering further reforms to the Privacy Act. The draft package proposes stronger safeguards for individuals and clearer responsibilities for organisations handling personal information.</p>
         <h4>What small organisations should review</h4>
