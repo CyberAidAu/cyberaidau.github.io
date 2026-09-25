@@ -7,6 +7,13 @@
     <language>en-au</language>
     <atom:link href="https://cyberaidau.github.io/news.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Medicare portal incident shows why AI agents need strict limits</title>
+      <link>https://cyberaidau.github.io/news.html</link>
+      <guid>https://cyberaidau.github.io/news.html#ai-agent-medicare-2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Practical lessons for Australian organisations after an AI research agent gained unauthorised access to a Medicare statistics portal.</description>
+    </item>
+    <item>
       <title>Brisbane prepares AI-assisted traffic-light trial</title>
       <link>https://cyberaidau.github.io/news.html</link>
       <guid>https://cyberaidau.github.io/news.html#brisbane-ai-traffic-lights-2026-09-18</guid>
