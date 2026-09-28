@@ -41,6 +41,7 @@
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="updates.html">Updates</a>
         <a class="nav-link active" href="news.html" aria-current="page">News &amp; Alerts</a>
+        <a class="nav-link" href="reports.html">Example Findings</a>
       </div>
     </nav>
   </header>
@@ -73,8 +74,9 @@
 
     <h2 class="section-title" id="latest-title">News archive</h2>
     <div class="archive-bar" aria-label="News archive summary">
-      <p><strong>Last updated:</strong> <time datetime="2026-09-27">27 September 2026</time> · 13 published briefings</p>
+      <p><strong>Last updated:</strong> <time datetime="2026-09-28">28 September 2026</time> · 16 published briefings</p>
       <div class="archive-links" aria-label="Browse briefings by date">
+        <a href="#weekly-cyber-brief-21-27-september-2026">28 September (3)</a>
         <a href="#quest-breach-scams-2026-09-27">27 September (1)</a>
         <a href="#australia-ai-infrastructure-consultation-2026-09-25">25 September (6)</a>
         <a href="#brisbane-ai-traffic-lights-2026-09-18">18 September (3)</a>
@@ -83,6 +85,61 @@
     </div>
     <h3 class="month-heading">September 2026</h3>
     <section class="briefings" aria-labelledby="latest-title">
+      <article class="briefing" id="weekly-cyber-brief-21-27-september-2026">
+        <div class="meta">Small Business Cybersecurity · Published <time datetime="2026-09-28">28 September 2026</time></div>
+        <h3>Weekly cyber brief: webmail, SharePoint, Magento and hosting platforms need attention</h3>
+        <p>Several internet-facing and hosting products moved into urgent remediation this week. Canada’s Cyber Centre reported open-source indications that attackers are exploiting Roundcube CVE-2026-48842. CISA added SharePoint CVE-2026-65660, Adobe Commerce CVE-2026-71362 and MikroTik CVE-2026-67279 to its Known Exploited Vulnerabilities catalogue.</p>
+        <p>Roundcube should be updated beyond the minimum fixed releases of 1.6.16 or 1.7.1. SharePoint Server—not ordinary SharePoint Online—requires the relevant August security update; the flaw requires an authenticated low-privilege account. Adobe Commerce operators should verify both the August security update for CVE-2026-71362 and Adobe’s dedicated hotfix for actively exploited CVE-2026-75650.</p>
+        <h4>Actions for small organisations and providers</h4>
+        <ul>
+          <li>Ask hosting and email providers which webmail, control-panel and e-commerce components they operate and when each was verified.</li>
+          <li>Review logs and account activity when a vulnerable system was publicly reachable before patching.</li>
+          <li>Update affected cPanel and WP Toolkit installations; official sources had not confirmed exploitation of those cPanel flaws when this briefing was prepared.</li>
+          <li>Treat the MikroTik CVE identifier and vendor-version mapping cautiously because CISA and MikroTik’s September advisory do not use the same CVE list.</li>
+        </ul>
+        <p>ASD’s ACSC also issued a High-rated alert about AI agents taking unexpected or unauthorised actions. Organisations should use least-privilege accounts, explicit scope, reliable logs and human approval for sensitive actions.</p>
+        <a class="source" href="https://www.cyber.gc.ca/en/alerts-advisories/roundcube-security-advisory-av26-503" target="_blank" rel="noopener">Read Canada’s Roundcube advisory →</a><br>
+        <a class="source" href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">Search CISA’s Known Exploited Vulnerabilities catalogue →</a><br>
+        <a class="source" href="https://helpx.adobe.com/security/products/magento/apsb26-92.html" target="_blank" rel="noopener">Read Adobe Commerce bulletin APSB26-92 →</a><br>
+        <a class="source" href="https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/risks-of-ai-misalignment-to-australian-organisations" target="_blank" rel="noopener">Read the ACSC AI-misalignment alert →</a>
+      </article>
+
+      <article class="briefing" id="weekly-cyber-brief-14-20-september-2026">
+        <div class="meta">Small Business Cybersecurity · Published <time datetime="2026-09-28">28 September 2026</time></div>
+        <h3>Weekly cyber brief: managed email, identity and hosting tools still require evidence</h3>
+        <p>Cisco confirmed active exploitation of critical flaws in Secure Email Gateway and Identity Services Engine. CVE-2026-76461 can lead to root command execution through a crafted email, while CVE-2026-76460 can bypass ISE web-management authentication. Both require vendor updates and compromise checks; Cisco says there are no complete workarounds.</p>
+        <p>CISA also confirmed exploitation of Acronis Backup integration CVE-2026-87886 and three Linux kernel vulnerabilities. The Acronis issue is a local privilege-escalation flaw affecting hosting-panel plugins, not an unauthenticated remote entry point. Linux remediation should use the relevant distribution update and verify the kernel actually running after restart.</p>
+        <h4>Other useful lessons</h4>
+        <ul>
+          <li>WordPress 7.1.1 contains 11 security fixes, but official sources had not reported active exploitation.</li>
+          <li>Fake ChatGPT billing emails show why payment details should be updated through a saved bookmark or official app—not an email link.</li>
+          <li>CrowdSec’s investigation shows the importance of immediately revoking former staff access and developer tokens.</li>
+          <li>Ask MSPs and hosts for exact products, versions, update dates and compromise-review evidence rather than accepting “managed” as proof of security.</li>
+        </ul>
+        <a class="source" href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX" target="_blank" rel="noopener">Read Cisco’s Secure Email advisory →</a><br>
+        <a class="source" href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5" target="_blank" rel="noopener">Read Cisco’s ISE advisory →</a><br>
+        <a class="source" href="https://security-advisory.acronis.com/advisories/SEC-10986" target="_blank" rel="noopener">Read the Acronis advisory →</a><br>
+        <a class="source" href="https://wordpress.org/news/2026/09/wordpress-7-1-1-maintenance-and-security-release/" target="_blank" rel="noopener">Read the WordPress 7.1.1 release notice →</a>
+      </article>
+
+      <article class="briefing" id="weekly-cyber-brief-31-august-6-september-2026">
+        <div class="meta">Small Business Cybersecurity · Published <time datetime="2026-09-28">28 September 2026</time></div>
+        <h3>Weekly cyber brief: browsers, remote access and AI infrastructure</h3>
+        <p>ASD’s ACSC issued a Critical-rated warning for configuration-dependent Citrix NetScaler vulnerabilities CVE-2026-19489 and CVE-2026-19490. Organisations using NetScaler for remote access should confirm the applicable fixed release and review authentication activity; ACSC’s alert did not itself claim active exploitation.</p>
+        <p>SonicWall confirmed exploitation of two SMA1000 vulnerabilities. CVE-2026-83548 is a pre-authentication server-side request forgery flaw, while CVE-2026-83549 is a post-authentication command-injection flaw that may be chained with it. CISA also added exploited flaws affecting LiteLLM and JFrog Artifactory to its catalogue.</p>
+        <h4>Practical priorities</h4>
+        <ul>
+          <li>Update Chrome to 152.0.7977.82/.83 or later on Windows and macOS, or 152.0.7977.82 or later on Linux, then restart it. Google’s release did not state that CVE-2026-85046 was being exploited.</li>
+          <li>Ask providers whether the business uses Citrix NetScaler, SonicWall SMA1000 or Sangoma Switchvox and obtain exact version evidence.</li>
+          <li>Identify self-hosted AI gateways, automation systems and software repositories because they may hold powerful credentials or command-execution permissions.</li>
+          <li>Keep management interfaces private and rotate exposed keys or administrator credentials when compromise is suspected.</li>
+        </ul>
+        <a class="source" href="https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/critical-vulnerabilities-in-citrix-netscaler-application-delivery-controller-adc-and-citrix-netscaler-gateway-products" target="_blank" rel="noopener">Read the ACSC NetScaler alert →</a><br>
+        <a class="source" href="https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016" target="_blank" rel="noopener">Read the SonicWall advisory →</a><br>
+        <a class="source" href="https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html" target="_blank" rel="noopener">Read Google’s Chrome release notice →</a><br>
+        <a class="source" href="https://github.com/BerriAI/litellm/security/advisories/GHSA-7488-6r32-c95q" target="_blank" rel="noopener">Read the LiteLLM advisory →</a>
+      </article>
+
       <article class="briefing" id="quest-breach-scams-2026-09-27">
         <div class="meta">Data &amp; Privacy · Published <time datetime="2026-09-27">27 September 2026</time></div>
         <h3>Quest breach: affected guests should watch for identity and payment scams</h3>

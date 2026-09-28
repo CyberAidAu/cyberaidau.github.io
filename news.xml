@@ -7,6 +7,27 @@
     <language>en-au</language>
     <atom:link href="https://cyberaidau.github.io/news.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Weekly cyber brief: webmail, SharePoint, Magento and hosting platforms need attention</title>
+      <link>https://cyberaidau.github.io/news.html#weekly-cyber-brief-21-27-september-2026</link>
+      <guid>https://cyberaidau.github.io/news.html#weekly-cyber-brief-21-27-september-2026</guid>
+      <pubDate>Mon, 28 Sep 2026 00:30:00 GMT</pubDate>
+      <description>Verified actions for Roundcube, SharePoint Server, Adobe Commerce, MikroTik and hosting platforms, plus ACSC guidance on AI-agent boundaries.</description>
+    </item>
+    <item>
+      <title>Weekly cyber brief: managed email, identity and hosting tools still require evidence</title>
+      <link>https://cyberaidau.github.io/news.html#weekly-cyber-brief-14-20-september-2026</link>
+      <guid>https://cyberaidau.github.io/news.html#weekly-cyber-brief-14-20-september-2026</guid>
+      <pubDate>Mon, 28 Sep 2026 00:20:00 GMT</pubDate>
+      <description>Corrected guidance covering exploited Cisco and Acronis flaws, Linux kernel updates, WordPress security fixes and offboarding lessons.</description>
+    </item>
+    <item>
+      <title>Weekly cyber brief: browsers, remote access and AI infrastructure</title>
+      <link>https://cyberaidau.github.io/news.html#weekly-cyber-brief-31-august-6-september-2026</link>
+      <guid>https://cyberaidau.github.io/news.html#weekly-cyber-brief-31-august-6-september-2026</guid>
+      <pubDate>Mon, 28 Sep 2026 00:10:00 GMT</pubDate>
+      <description>Verified actions for Citrix NetScaler, SonicWall SMA1000, Chrome and self-hosted AI and developer infrastructure.</description>
+    </item>
+    <item>
       <title>Quest breach: affected guests should watch for identity and payment scams</title>
       <link>https://cyberaidau.github.io/news.html#quest-breach-scams-2026-09-27</link>
       <guid>https://cyberaidau.github.io/news.html#quest-breach-scams-2026-09-27</guid>
