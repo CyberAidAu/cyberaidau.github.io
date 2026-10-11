@@ -7,6 +7,13 @@
     <language>en-au</language>
     <atom:link href="https://cyberaidau.github.io/news.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Secure internet-facing systems against automated state-linked attacks</title>
+      <link>https://cyberaidau.github.io/news.html#automated-state-linked-network-attacks-2026-10-12</link>
+      <guid>https://cyberaidau.github.io/news.html#automated-state-linked-network-attacks-2026-10-12</guid>
+      <pubDate>Sun, 11 Oct 2026 22:30:00 GMT</pubDate>
+      <description>Practical steps for Australian organisations following a joint warning about automated exploitation of exposed systems and known vulnerabilities.</description>
+    </item>
+    <item>
       <title>ASOS customers should ignore the unauthorised app notification</title>
       <link>https://cyberaidau.github.io/news.html#asos-notification-platform-incident-2026-10-09</link>
       <guid>https://cyberaidau.github.io/news.html#asos-notification-platform-incident-2026-10-09</guid>
