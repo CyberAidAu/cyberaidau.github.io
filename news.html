@@ -74,8 +74,9 @@
 
     <h2 class="section-title" id="latest-title">News archive</h2>
     <div class="archive-bar" aria-label="News archive summary">
-      <p><strong>Last updated:</strong> <time datetime="2026-10-12">12 October 2026</time> · 29 published briefings</p>
+      <p><strong>Last updated:</strong> <time datetime="2026-10-13">13 October 2026</time> · 30 published briefings</p>
       <div class="archive-links" aria-label="Browse briefings by date">
+        <a href="#citrix-netscaler-cve-2026-107406">13 October (1)</a>
         <a href="#openai-hugging-face-agent-incident-2026-10-12">12 October (2)</a>
         <a href="#asos-notification-platform-incident-2026-10-09">9 October (2)</a>
         <a href="#business-payment-identity-scams-2026-10-07">7 October (1)</a>
@@ -91,6 +92,25 @@
     </div>
     <h3 class="month-heading">October 2026</h3>
     <section class="briefings" aria-labelledby="latest-title">
+      <article class="briefing" id="citrix-netscaler-cve-2026-107406">
+        <div class="meta">Small Business Cybersecurity · Published <time datetime="2026-10-13">13 October 2026</time></div>
+        <h3>Citrix NetScaler users need another urgent update</h3>
+        <p>The Australian Cyber Security Centre updated its critical Citrix NetScaler alert after Citrix disclosed CVE-2026-107406 on 9 October. The vulnerability can allow an unauthenticated attacker to execute code remotely when a NetScaler ADC or NetScaler Gateway is configured as a gateway or authentication, authorisation and auditing virtual server.</p>
+        <p>Citrix says the new vulnerability was discovered during investigation of attempted exploitation of older NetScaler flaws. It also warns that updates released for those earlier vulnerabilities do not fix CVE-2026-107406. At the time of Citrix's bulletin, the company said it had no evidence that this newly disclosed vulnerability had been exploited.</p>
+        <h4>What organisations should do</h4>
+        <ul>
+          <li>Identify every NetScaler ADC and NetScaler Gateway appliance, including systems managed by an IT provider, and confirm whether the affected gateway or authentication features are enabled.</li>
+          <li>Install a fixed release: NetScaler ADC and Gateway 14.1-65.50 or later, or 13.1-63.20 or later. Citrix-managed cloud services have already been updated.</li>
+          <li>Do not assume that an update installed for an earlier Citrix alert also fixed this vulnerability. Record and verify the exact running version after the appliance restarts.</li>
+          <li>Review administrator, authentication and network logs for unfamiliar access or configuration changes, and preserve evidence before rebuilding or resetting a suspected system.</li>
+          <li>If an appliance is managed externally, ask the provider for written confirmation of the installed version, update date and review for suspicious activity.</li>
+        </ul>
+        <p>Citrix says versions 12.1 and 13.0 are end of life and remain vulnerable. Organisations still using them should move to a supported fixed release rather than treating an unsupported appliance as safely patched. This issue concerns business network infrastructure; ordinary Citrix Workspace app users do not install the NetScaler appliance update themselves.</p>
+        <a class="source" href="https://www.cyber.gov.au/alert/critical-vulnerabilities-in-citrix-netscaler-adc-and-citrix-netscaler-gateway-products" target="_blank" rel="noopener">Read the ACSC critical alert →</a><br>
+        <a class="source" href="https://support.citrix.com/external/article/CTX697191/citrix-netscaler-adc-and-citrix-netscale.html" target="_blank" rel="noopener">Read Citrix's CVE-2026-107406 security bulletin →</a><br>
+        <a class="source" href="https://www.cyberdaily.au/security/14282-act-now-aussie-cyber-agency-updates-citrix-netscaler-critical-alert-to-include-brand-new-vulnerability" target="_blank" rel="noopener">Read Cyber Daily's report →</a>
+      </article>
+
       <article class="briefing" id="openai-hugging-face-agent-incident-2026-10-12">
         <div class="meta">AI Governance · Published <time datetime="2026-10-12">12 October 2026</time></div>
         <h3>When AI agents coordinated to cheat a test—and breached Hugging Face</h3>

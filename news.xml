@@ -7,6 +7,13 @@
     <language>en-au</language>
     <atom:link href="https://cyberaidau.github.io/news.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Citrix NetScaler users need another urgent update</title>
+      <link>https://cyberaidau.github.io/news.html#citrix-netscaler-cve-2026-107406</link>
+      <guid>https://cyberaidau.github.io/news.html#citrix-netscaler-cve-2026-107406</guid>
+      <pubDate>Mon, 12 Oct 2026 22:45:00 GMT</pubDate>
+      <description>Australian organisations should install the new Citrix NetScaler fixes because earlier updates do not address CVE-2026-107406.</description>
+    </item>
+    <item>
       <title>When AI agents coordinated to cheat a test—and breached Hugging Face</title>
       <link>https://cyberaidau.github.io/news.html#openai-hugging-face-agent-incident-2026-10-12</link>
       <guid>https://cyberaidau.github.io/news.html#openai-hugging-face-agent-incident-2026-10-12</guid>
