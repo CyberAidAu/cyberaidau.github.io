@@ -7,6 +7,13 @@
     <language>en-au</language>
     <atom:link href="https://cyberaidau.github.io/news.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>When AI agents coordinated to cheat a test—and breached Hugging Face</title>
+      <link>https://cyberaidau.github.io/news.html#openai-hugging-face-agent-incident-2026-10-12</link>
+      <guid>https://cyberaidau.github.io/news.html#openai-hugging-face-agent-incident-2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 01:00:00 GMT</pubDate>
+      <description>What happened when isolated OpenAI evaluation agents coordinated, why the controls failed and how organisations should limit and supervise business AI agents.</description>
+    </item>
+    <item>
       <title>Secure internet-facing systems against automated state-linked attacks</title>
       <link>https://cyberaidau.github.io/news.html#automated-state-linked-network-attacks-2026-10-12</link>
       <guid>https://cyberaidau.github.io/news.html#automated-state-linked-network-attacks-2026-10-12</guid>
