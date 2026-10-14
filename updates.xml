@@ -7,6 +7,14 @@
   <language>en-au</language>
 
   <item>
+    <title>Preparing private, separated systems before client-agent pilots</title>
+    <link>https://cyberaidau.github.io/updates.html#privacy-by-design-device-preparation-2026-10-14</link>
+    <guid isPermaLink="false">cyberaidau-update-2026-10-privacy-device-preparation</guid>
+    <pubDate>Wed, 14 Oct 2026 11:30:00 +1000</pubDate>
+    <description>CyberAidAU is documenting and testing privacy-by-design controls covering separated environments, restricted private access, encryption, client-data isolation, human approval, activity records, supported systems, backups and recovery before any client-agent pilot.</description>
+  </item>
+
+  <item>
     <title>Future service research: supervised AI assistants for SMEs</title>
     <link>https://cyberaidau.github.io/updates.html#supervised-ai-assistant-research-2026-10-12</link>
     <guid isPermaLink="false">cyberaidau-update-2026-10-supervised-ai-assistant-research</guid>
