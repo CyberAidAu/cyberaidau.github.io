@@ -74,8 +74,9 @@
 
     <h2 class="section-title" id="latest-title">News archive</h2>
     <div class="archive-bar" aria-label="News archive summary">
-      <p><strong>Last updated:</strong> <time datetime="2026-10-14">14 October 2026</time> · 32 published briefings</p>
+      <p><strong>Last updated:</strong> <time datetime="2026-10-15">15 October 2026</time> · 34 published briefings</p>
       <div class="archive-links" aria-label="Browse briefings by date">
+        <a href="#ivanti-connect-secure-cve-2026-104935">15 October (2)</a>
         <a href="#atm-card-skimming-sydney-2026-10-14">14 October (2)</a>
         <a href="#citrix-netscaler-cve-2026-107406">13 October (1)</a>
         <a href="#openai-hugging-face-agent-incident-2026-10-12">12 October (2)</a>
@@ -93,6 +94,43 @@
     </div>
     <h3 class="month-heading">October 2026</h3>
     <section class="briefings" aria-labelledby="latest-title">
+      <article class="briefing" id="ivanti-connect-secure-cve-2026-104935">
+        <div class="meta">Small Business Cybersecurity · Published <time datetime="2026-10-15">15 October 2026</time></div>
+        <h3>Ivanti VPN administrators need to patch and check for compromise</h3>
+        <p>Ivanti has disclosed CVE-2026-104935, a critical command-injection vulnerability in supported Ivanti Connect Secure appliances. The company says an unauthenticated remote attacker can exploit it to execute arbitrary code, and that a limited number of customers were already targeted when the advisory was published.</p>
+        <p>Security firm Volexity says it investigated compromised appliances and observed attackers chaining vulnerabilities to obtain code execution and maintain access. Installing the fixed software is essential, but an appliance exposed before it was patched also needs a compromise review rather than being treated as safe simply because the version number changed.</p>
+        <h4>What organisations should do</h4>
+        <ul>
+          <li>Identify every Ivanti Connect Secure appliance, including devices operated by an IT or managed-service provider, and confirm its exact running version.</li>
+          <li>Install Ivanti Connect Secure 22.7R2.10 or the newest later fixed release offered by Ivanti. Ivanti says versions 9.x and 22.6 reached end of life and will not receive a fix.</li>
+          <li>After updating, perform Ivanti's recommended factory reset and configuration restoration steps for affected appliances rather than relying on an ordinary upgrade alone.</li>
+          <li>Run the external Integrity Checker Tool and review authentication, administrator, network and endpoint logs for suspicious access, new accounts or unexplained configuration changes.</li>
+          <li>If compromise is suspected, isolate the appliance, preserve evidence and involve an incident-response specialist before restoring trusted service.</li>
+        </ul>
+        <p>Staff who only use the organisation's VPN client cannot install this appliance update themselves. They should follow instructions from their employer or IT provider and promptly report unexpected authentication prompts or connection behaviour.</p>
+        <a class="source" href="https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US" target="_blank" rel="noopener">Read Ivanti's security advisory →</a><br>
+        <a class="source" href="https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/" target="_blank" rel="noopener">Read Volexity's investigation →</a><br>
+        <a class="source" href="https://www.cyberdaily.au/security/14296-patch-now-hackers-already-targeting-newly-disclosed-ivanti-connect-secure-zero-day" target="_blank" rel="noopener">Read Cyber Daily's report →</a>
+      </article>
+
+      <article class="briefing" id="operational-technology-edge-device-alert-2026-10-15">
+        <div class="meta">Small Business Cybersecurity · Published <time datetime="2026-10-15">15 October 2026</time></div>
+        <h3>Protect connected refrigeration and building systems from internet attacks</h3>
+        <p>Australia's cyber agency has warned organisations to strengthen operational technology and edge devices after overseas attackers disrupted refrigeration controllers in French grocery stores. The campaign used internet-exposed systems and vendor-default credentials, changing temperature settings and creating a risk to stock and business continuity.</p>
+        <p>The Australian Signals Directorate says similar devices can be found across sectors including retail, food production, water, energy, transport and building management. The warning is relevant to smaller organisations because connected refrigeration, heating, access-control, camera and industrial systems may be installed by a supplier and then left reachable from the internet with weak or unchanged credentials.</p>
+        <h4>Practical actions for owners and operators</h4>
+        <ul>
+          <li>Make an inventory of refrigeration, building-management, camera, access-control and industrial devices, including the supplier, model, support status and whether each device is reachable from the internet.</li>
+          <li>Remove direct internet exposure where it is not required. Put remote management behind a secure gateway or VPN and restrict access to approved administrators and networks.</li>
+          <li>Replace all vendor-default and shared passwords with unique credentials, enable multifactor authentication where supported and remove accounts no longer needed.</li>
+          <li>Install vendor updates, replace unsupported equipment and ask the installer or service provider for written evidence of the current version and remote-access configuration.</li>
+          <li>Separate operational devices from ordinary office and guest networks, keep useful logs and prepare a manual fallback for refrigeration, doors, cameras or other safety-critical functions.</li>
+        </ul>
+        <p>Businesses should not assume that a device is safe because it is specialised or rarely touched. If a supplier manages it remotely, the business still needs to know how access is secured, monitored and revoked.</p>
+        <a class="source" href="https://www.cyber.gov.au/alert/protecting-operational-technology-and-edge-devices" target="_blank" rel="noopener">Read the ASD/ACSC alert →</a><br>
+        <a class="source" href="https://www.cyberdaily.au/security/14297-the-big-melt-how-australia-can-stop-a-french-style-refrigerator-hacking-campaign" target="_blank" rel="noopener">Read Cyber Daily's report →</a>
+      </article>
+
       <article class="briefing" id="atm-card-skimming-sydney-2026-10-14">
         <div class="meta">Safety for Seniors · Published <time datetime="2026-10-14">14 October 2026</time></div>
         <h3>Sydney ATM skimming rise: check the machine and watch your accounts</h3>

@@ -7,6 +7,20 @@
     <language>en-au</language>
     <atom:link href="https://cyberaidau.github.io/news.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ivanti VPN administrators need to patch and check for compromise</title>
+      <link>https://cyberaidau.github.io/news.html#ivanti-connect-secure-cve-2026-104935</link>
+      <guid>https://cyberaidau.github.io/news.html#ivanti-connect-secure-cve-2026-104935</guid>
+      <pubDate>Thu, 15 Oct 2026 00:04:00 GMT</pubDate>
+      <description>Ivanti Connect Secure administrators should install the fixed release, reset affected appliances and investigate systems that were exposed before patching.</description>
+    </item>
+    <item>
+      <title>Protect connected refrigeration and building systems from internet attacks</title>
+      <link>https://cyberaidau.github.io/news.html#operational-technology-edge-device-alert-2026-10-15</link>
+      <guid>https://cyberaidau.github.io/news.html#operational-technology-edge-device-alert-2026-10-15</guid>
+      <pubDate>Thu, 15 Oct 2026 00:03:00 GMT</pubDate>
+      <description>Practical steps for Australian businesses following an ASD warning about internet-exposed operational technology, default credentials and disrupted refrigeration systems.</description>
+    </item>
+    <item>
       <title>Sydney ATM skimming rise: check the machine and watch your accounts</title>
       <link>https://cyberaidau.github.io/news.html#atm-card-skimming-sydney-2026-10-14</link>
       <guid>https://cyberaidau.github.io/news.html#atm-card-skimming-sydney-2026-10-14</guid>
